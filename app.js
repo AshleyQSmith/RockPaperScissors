@@ -13,25 +13,25 @@ function play(result) {
 let compChoice = randomComputerChoice()
 
   if (result == compChoice) {
-    console.log('tied')}
+    alert('You Tied!')}
 
   if ((result == 'rock') && (compChoice == 'paper')) {
-    console.log('loser')}
+    alert('You Lost :(')}
   
   if ((result == 'rock') && (compChoice == 'scissors')) {
-    console.log('winner')}
+    alert('You Win :)')}
 
   if ((result == 'paper') && (compChoice == 'rock')) {
-    console.log('winner')}
+    alert('You Win :)')}
 
   if ((result == 'paper') && (compChoice == "scissors")) {
-    console.log('loser')}
+    alert('You Lost :(')}
 
   if ((result == 'scissors') && (compChoice == 'paper')) {
-    console.log('winner')}
+    alert('You Win :)')}
 
   if ((result == 'scissors') && (compChoice == 'rock')) {
-     console.log('loser')}
+    alert('You Lost :(')}
   
 }
 
